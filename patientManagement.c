@@ -57,7 +57,8 @@ int main()
     int ch;
     while (1)
     {
-        printf("\nwelcome to hospital\n");
+        //added the new menu for the file system 
+        printf("\n welcome to hospital\n");
         printf("\nPress 1 to add a new patient\n");
         printf("Press 2 to add old patient's information\n");
         printf("Press 3 to delete information of a patient\n");
