@@ -14,6 +14,7 @@ struct node2
     char medicine[50];
 };
 
+// this is linked list node
 struct node1
 {
     struct node1* link;
@@ -56,6 +57,7 @@ int main()
     int ch;
     while (1)
     {
+        printf("\nwelcome to hospital\n");
         printf("\nPress 1 to add a new patient\n");
         printf("Press 2 to add old patient's information\n");
         printf("Press 3 to delete information of a patient\n");
