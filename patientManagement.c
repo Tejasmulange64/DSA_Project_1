@@ -345,6 +345,7 @@ void display(int number)
 
 void delete_patient(int number)
 {
+    // delete patient
     struct node1* p = root, * prev = NULL, *r;
 
     while (p != NULL)
