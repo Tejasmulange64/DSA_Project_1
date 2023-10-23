@@ -4,6 +4,7 @@
 #include <time.h>
 #include <stdbool.h>
 
+// node struct
 struct node2
 {
     struct node2* link;
