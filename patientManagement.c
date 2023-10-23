@@ -14,6 +14,7 @@ struct node2
     char medicine[50];
 };
 
+// this is linked list node
 struct node1
 {
     struct node1* link;
@@ -56,6 +57,8 @@ int main()
     int ch;
     while (1)
     {
+        //added the new menu for the file system 
+        printf("\n welcome to hospital\n");
         printf("\nPress 1 to add a new patient\n");
         printf("Press 2 to add old patient's information\n");
         printf("Press 3 to delete information of a patient\n");
@@ -102,6 +105,7 @@ int main()
 
         case 5:
         {
+            // add disease predictor tree
             struct Node* root = createNode("fever");
             root->yes = createNode("cough");
             root->no = createNode("headache");
@@ -341,6 +345,7 @@ void display(int number)
 
 void delete_patient(int number)
 {
+    // delete patient
     struct node1* p = root, * prev = NULL, *r;
 
     while (p != NULL)
