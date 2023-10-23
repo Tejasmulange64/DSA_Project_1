@@ -105,6 +105,7 @@ int main()
 
         case 5:
         {
+            // add disease predictor tree
             struct Node* root = createNode("fever");
             root->yes = createNode("cough");
             root->no = createNode("headache");
